@@ -126,8 +126,9 @@ header {
   border-right: none;
 }
 
-.nav-link {
+.nav-link:link {
   text-decoration: none;
+  color: #777;
 }
 
 .nav-link:visited {
@@ -189,6 +190,12 @@ h1 {
   margin-left: 30px;
   margin-top: 30px;
   position: relative;
+  opacity: 0.8;
+}
+
+.portfolio-image:hover {
+  opacity: 1;
+  transition: 1s;
 }
 
 .portfolio-image:last-child {
